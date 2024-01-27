@@ -403,20 +403,25 @@ var query = "INSERT INTO `practica 1`(`ID`, `FECHA`, `DEVICE`, `TEMPERATURA`, `H
 ### Instrucciones de operación
 1. Nos vamos a nuestro wokwi en donde nuestro simulador ya esta corriendo
 
-![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/resultado%20wokwi.jpeg)
+![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/1Resultado.jpg?raw=true)
+
+1. Nos vamos a nuestro nod-red en donde nos queda de la siguiente manera
+https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/Resultado.jpg?raw=true)
 
 ## Resultados
 
 A continuación se puede observar una vista previa del resultado del proyecto y la interaccion con el wokwi .
 
 Interaccion Temperatura, Humedad y Distancia 
-![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/resultados.jpg?raw=true)
+![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/ResultadoH.jpg?raw=true)
 
-![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/resultados1.jpg?raw=true)
+![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/ResultadoD.jpg?raw=true)
 
 Resultado Node-Red
-![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/resultados2.jpg?raw=true)
-![]()
+![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/Resultado2.jpg?raw=true)
+
+Resultado Xampp
+![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/Resultado1.jpg?raw=true)
 
 ### Créditos
  ## Desarrollado por 
