@@ -409,7 +409,13 @@ var query = "INSERT INTO `practica 1`(`ID`, `FECHA`, `DEVICE`, `TEMPERATURA`, `H
 
 A continuación se puede observar una vista previa del resultado del proyecto y la interaccion con el wokwi .
 
-![]()
+Interaccion Temperatura, Humedad y Distancia 
+![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/resultados.jpg?raw=true)
+
+![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/resultados1.jpg?raw=true)
+
+Resultado Node-Red
+![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/resultados2.jpg?raw=true)
 ![]()
 
 ### Créditos
