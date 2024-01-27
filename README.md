@@ -425,6 +425,7 @@ Resultado Xampp
 
 ## Conclusiones
 Esta propuesta de proyecto ha cumplido con sus objetivos, habiendo sido creado con el fin de desarrollar un sistema de riego automático administrado de manera inalámbrica que satisfaga las necesidades del usuario, demostrando por medio de un módulo poder conseguir un óptimo manejo de los recursos de la misma y así llegar a conseguir  una producción de excelente calidad, siendo de gran beneficio a la comunidad, promoviendo y ayudando a preservar los recursos naturales del lugar.
+
 Se puede afirmar que, respecto al sondeo inicial, se mejoraron las habilidades y conocimientos en los temas de electrónica y programación y se cuentan con las bases para desarrollar otros proyectos. 
 
 ### Créditos
