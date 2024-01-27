@@ -428,8 +428,8 @@ Esta propuesta de proyecto ha cumplido con sus objetivos, habiendo sido creado c
 
 Se puede afirmar que, respecto al sondeo inicial, se mejoraron las habilidades y conocimientos en los temas de electrónica y programación y se cuentan con las bases para desarrollar otros proyectos. 
 
-### Créditos
- # Desarrollado por 
+## Créditos
+ ### Desarrollado por 
  
  - Abraham Contreras Herrera
  - [GitHub](https://github.com/AbrahamCH1)
