@@ -239,12 +239,12 @@ Serial.println();
 ```
 **NOTA**:En las siguientes partes que se mostraran a continuación se debe de realizar un pequeño cambio a base de como es configurado en NodeRed
 ```
-const char* mqtt_server = "18.193.219.109";  **se colocara ip que se encuentra en mqtt in del NodeRed **
+const char* mqtt_server = "18.193.219.109";  //se colocara ip que se encuentra en mqtt in del NodeRed 
 String username_mqtt="educatronicosiot";
 ```
 
 ```
-client.publish("AbrahamDHT", output.c_str());  **Aqui va el Topic que igual corresponde al mqtt in** 
+client.publish("AbrahamDHT", output.c_str());  //Aqui va el Topic que igual corresponde al mqtt in 
 
 ```
 
