@@ -175,7 +175,7 @@ digitalWrite(Trigger, LOW);
   
 t = pulseIn(Echo, HIGH); //obtenemos el ancho del pulso
 d = t/59;             //escalamos el tiempo a una distancia en cm
-L = ((400-(d))*2000*2000)/1000000; //Conversión de los valores de "d" a Litros
+L = ((400-(d))*200*200)/1000; //Conversión de los valores de "d" a Litros
 
 if (data.humidity>=0 && data.humidity<=50){   //Condición para accionamiento de bomba de agua              
   if (d>=0 && d<=350){    //Valores de niel de agua entre los que la bomba de agua funcionara
@@ -296,6 +296,10 @@ client.publish("AbrahamDHT", output.c_str());  **Aqui va el Topic que igual corr
   
 ![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/configuracion%20columnas.jpeg)
 
+8. Para la base de datos que se genero ponemos a trabajar el proyecto de WOKWI y en la plataforma **phpMyadmin**  podremos observar la informacion generada y se observa de la siguiente manera 
+![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/base%20de%20datos.jpeg)
+
+
 ### Instrucciones de preparación del entorno en NodeRed
 
 Para ejecutar este proyecto, es necesario lo siguiente
@@ -370,10 +374,11 @@ return msg;
 ```
 var query = "INSERT INTO `practica 1`(`ID`, `FECHA`, `DEVICE`, `TEMPERATURA`, `HUMEDAD`) VALUES (NULL, current_timestamp(), '";
 ```
+10. En el nodo de mysql le damos click nos vamos a la opcion del lapiz en la opción de Name y Database colocaremos el nombre con el que fue creado la base de datos. En la parte de Host se le coloca 127.0.0.1 en nuestro caso y por último en User pondremos root
 
-![](
+![]()
 
-10. En la parte de dashboard se agrega una nueva tabla con el nombre de SISTEMA DE RIEGO (HMI), posteriormente se añaden 5 grupos con los nombre de
+11. En la parte de dashboard se agrega una nueva tabla con el nombre de SISTEMA DE RIEGO (HMI), posteriormente se añaden 5 grupos con los nombre de
 
     -NIVEL DE AGUA
     -INDICADORES
@@ -406,5 +411,24 @@ A continuación se puede observar una vista previa del resultado del proyecto y 
 
 ![]()
 ![]()
+
+### Créditos
+ ## Desarrollado por 
+ 
+ -Abraham Contreras Herrera
+  [GitHub](https://github.com/AbrahamCH1)
+ 
+ -Armenta Ocampo Daniel de Jesus
+  [GitHub](https://github.com/DanielX834)
+ 
+ -Nestor Ivan Jimenez Sanchez
+  [GitHub](https://github.com/nijs17)
+ 
+ -Zagal Hernández Ali Yasmin
+  [GitHub](https://github.com/YasminZagal)
+ 
+ 
+
+
 
 
