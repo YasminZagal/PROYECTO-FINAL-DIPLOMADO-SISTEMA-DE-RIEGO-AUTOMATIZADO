@@ -1,12 +1,11 @@
 # PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO
 
-Este repositorio se muetsra el proyecto final del Diplomado Automatizacion Industrial y Mecatronica, en la cual consiste en un **Sitema de riego automatizado**, utilizando las herramentas de NodeRed, WOKWI y MySQL
+En este repositorio se muestra el proyecto del Modulo V "Interfases persona-máquina (HMI)" del Diplomado Automatizacion Industrial y Mecatronica, el cual consiste en un **Sistema de riego automatizado**, utilizando las herramentas de NodeRed, WOKWI y MySQL
 
 
 ## Introducción
 
-Un sistema de riego automatizado se trata de proveer agua para las plantas de manera autonoma con la ayuda del monitoreo para una menor funcion. Una vemtaja de este proyecto es el ahorro de tiempo, así como tener el control y lomas importan te el ahorro de agua.
-Aqui en este proyecto no solo se trata de hacer el riego si no tambien tener monitoreo de la cantidad de agua que este almacenada para poder hacer la funcion 
+Para la propuesta de este sistema de riego utilizaremos el modelo de placa arduino ESP32, el cual es una placa electrónica en la cual viene montado un microcontrolador con todo lo necesario para realizar su programación, este sistema se enfoca en acercar y facilitar el uso de la tecnología electrónica y programación de sistemas para una diversidad de tareas. En nuestro caso se trata de un sistema de riego el cual volverá más eficaz y aumentara el nivel de productividad en el trabajo realizado con el riego y el monitoreo de la cantidad de agua que este almacenada para poder hacer la funcion.
 
 
 ### Descripción
@@ -31,7 +30,7 @@ Para realizar este flow necesitas lo siguiente
 
 ### Requisitos previos
 
-Para que este flow funcione, debes cumplir con los siguientes requisitos previos
+Se debe cumplir con los siguientes requisitos previos
 1. Para realizar este proyecto de este repositorio se necesita entrar a la plataforma [WOKWI](https://https://wokwi.com/).
 2. Tener instalado Node.js (version 20.11.0 LTS).
 3. Crear una base de datos de MySQL. [XAMPP](https://www.apachefriends.org/)
@@ -247,11 +246,13 @@ client.publish("AbrahamDHT", output.c_str());  **Aqui va el Topic que igual corr
 
 ```
 
-2. Instalar la libreria de **ArduinoJson** **DTH sensor library for ESPx** **PubSubClient** **AccelStepper** **Stepper** . 
+2. Instalar la libreria de **ArduinoJson** **DTH sensor library for ESPx** **PubSubClient** **AccelStepper** **Stepper** .
+
    - Seleccionar pestaña de Librery Manager --> Add a New library --> Colocamos el nombre de libreria
  ![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/Librerias.jpeg)
   
-3. Realizar la conexion de **DTH22** **HC-SR04** **MOTOR** con la **ESP32** de la siguiente manera.
+4. Realizar la conexion de **DTH22** **HC-SR04** **MOTOR** con la **ESP32** de la siguiente manera.
+ 
  ![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/Conexiones.jpeg)
      
   **Conexión DTH22**
@@ -275,12 +276,15 @@ client.publish("AbrahamDHT", output.c_str());  **Aqui va el Topic que igual corr
 ### Instrucciones de preparación del entorto MySQL
 
 1. Una vez intalado el xampp nos vamos a recien agregados en nuestra PC, abrimos como administrador --> se abrira un recuadro en la cual damos click en start de Apache y MySQL -->  damos click en admin del apartado de MySQL ( nos redigira a una pagina (http://localhost/phpmyadmin/))
+
 ![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/XAMPP.jpeg)
 
-2. En la parte izquierda de la pantalla vermos unas opciones, le damos click en nuevo --> En nombre de base se le coloca lo que uno desee en nuestro caso se llama practica 1 --> crear
+3. En la parte izquierda de la pantalla vermos unas opciones, le damos click en nuevo --> En nombre de base se le coloca lo que uno desee en nuestro caso se llama practica 1 --> crear
+
 ![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/nuva%20base%20de%20datos.jpeg)
    
-4. Una vez creada nos mandara a colocar nombre de la tabla --> numero de columnas seleccionamos 5 --> crear
+5. Una vez creada nos mandara a colocar nombre de la tabla --> numero de columnas seleccionamos 5 --> crear
+
 ![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/nombre%20base%20de%20datos.jpeg)
   
 7. Editamos las columnas que creamos de la siguiente manera
@@ -290,7 +294,6 @@ client.publish("AbrahamDHT", output.c_str());  **Aqui va el Topic que igual corr
    - Columna 4
    - Columna 5
   
-   
 ![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/configuracion%20columnas.jpeg)
 
 ### Instrucciones de preparación del entorno en NodeRed
@@ -312,7 +315,6 @@ Para ejecutar este proyecto, es necesario lo siguiente
    - text
    - data picker
      
-
  ![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/Nodos.jpeg)
   
 4. Para la configuracion del mqtt in necesitaremos saber nuestra ip, que se saca de la siguiente manera:
@@ -369,19 +371,25 @@ return msg;
 var query = "INSERT INTO `practica 1`(`ID`, `FECHA`, `DEVICE`, `TEMPERATURA`, `HUMEDAD`) VALUES (NULL, current_timestamp(), '";
 ```
 
-![]()
+![](
 
 10. En la parte de dashboard se agrega una nueva tabla con el nombre de SISTEMA DE RIEGO (HMI), posteriormente se añaden 5 grupos con los nombre de
+
     -NIVEL DE AGUA
     -INDICADORES
     -GRAFICAS
     -Sistema de riego.
-11. En los nodo de gauge de los tres functions se colocara en el grupo de indicadores y en el chart de los  function sus nodos corresponderan al grupo  graficas
+    
+12. En los nodo de gauge de los tres functions se colocara en el grupo de indicadores y en el chart de los  function sus nodos corresponderan al grupo  graficas
 
 ![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/chart%20humedad.jpeg)
+
 ![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/chart%20temperatura.jpeg)
+
 ![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/gauge%20temperatura.jpeg)
+
 ![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/gauge%20humedad.jpeg)
+
 ![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/gauge%20agua.jpeg)
 
 
@@ -389,6 +397,7 @@ var query = "INSERT INTO `practica 1`(`ID`, `FECHA`, `DEVICE`, `TEMPERATURA`, `H
    
 ### Instrucciones de operación
 1. Nos vamos a nuestro wokwi en donde nuestro simulador ya esta corriendo
+
 ![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/resultado%20wokwi.jpeg)
 
 ## Resultados
