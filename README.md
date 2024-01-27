@@ -415,17 +415,17 @@ A continuación se puede observar una vista previa del resultado del proyecto y 
 ### Créditos
  ## Desarrollado por 
  
- -Abraham Contreras Herrera
-  [GitHub](https://github.com/AbrahamCH1)
+ - Abraham Contreras Herrera
+ - [GitHub](https://github.com/AbrahamCH1)
  
- -Armenta Ocampo Daniel de Jesus
-  [GitHub](https://github.com/DanielX834)
+ - Armenta Ocampo Daniel de Jesus
+ - [GitHub](https://github.com/DanielX834)
  
- -Nestor Ivan Jimenez Sanchez
-  [GitHub](https://github.com/nijs17)
+ - Nestor Ivan Jimenez Sanchez
+ - [GitHub](https://github.com/nijs17)
  
- -Zagal Hernández Ali Yasmin
-  [GitHub](https://github.com/YasminZagal)
+ - Zagal Hernández Ali Yasmin
+ - [GitHub](https://github.com/YasminZagal)
  
  
 
