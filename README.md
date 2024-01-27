@@ -406,11 +406,11 @@ var query = "INSERT INTO `practica 1`(`ID`, `FECHA`, `DEVICE`, `TEMPERATURA`, `H
 ![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/1Resultado.jpg?raw=true)
 
 1. Nos vamos a nuestro nod-red en donde nos queda de la siguiente manera
-https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/Resultado.jpg?raw=true)
+![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/Resultado.jpg?raw=true)
 
 ## Resultados
 
-A continuación se puede observar una vista previa del resultado del proyecto y la interaccion con el wokwi .
+A continuación se puede observar una vista previa del resultado del proyecto y la interacciones con las diferentes plataformas usadas .
 
 Interaccion Temperatura, Humedad y Distancia 
 ![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/ResultadoH.jpg?raw=true)
