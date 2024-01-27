@@ -1,6 +1,6 @@
 # PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO
 
-Este repositorio se muetsra el proyecto final del Diplomado Automatizacion Industrial y Mecatronica, en la cual consiste en un **Ssitema de riego automatizado**, utilizanfo las herramentas de NodeRed, WOKWI y MySQL
+Este repositorio se muetsra el proyecto final del Diplomado Automatizacion Industrial y Mecatronica, en la cual consiste en un **Sitema de riego automatizado**, utilizando las herramentas de NodeRed, WOKWI y MySQL
 
 
 ## Introducción
@@ -8,7 +8,6 @@ Este repositorio se muetsra el proyecto final del Diplomado Automatizacion Indus
 Un sistema de riego automatizado se trata de proveer agua para las plantas de manera autonoma con la ayuda del monitoreo para una menor funcion. Una vemtaja de este proyecto es el ahorro de tiempo, así como tener el control y lomas importan te el ahorro de agua.
 Aqui en este proyecto no solo se trata de hacer el riego si no tambien tener monitoreo de la cantidad de agua que este almacenada para poder hacer la funcion 
 
-El flow 2 representa el segundo ejercicio a realizar con NodeRed. Este ejercicio consiste únicamente en hacer conexion a un servidor publico.
 
 ### Descripción
 
@@ -239,7 +238,7 @@ Serial.println();
 ```
 **NOTA**:En las siguientes partes que se mostraran a continuación se debe de realizar un pequeño cambio a base de como es configurado en NodeRed
 ```
-const char* mqtt_server = "18.193.219.109";  **se colocara ip que se encuentra en mqqtt in del NodeRed **
+const char* mqtt_server = "18.193.219.109";  **se colocara ip que se encuentra en mqtt in del NodeRed **
 String username_mqtt="educatronicosiot";
 ```
 
@@ -365,19 +364,19 @@ msg.topic=query;
 return msg;
 
 ```
-**NOTA**: En el siguiente apartado en donde dice**practica 1** se le cambiara el nombre dependiendo de como se llame su servidor creado en MySQL
+**NOTA**: En el siguiente apartado en donde dice **practica 1** se le cambiara el nombre dependiendo de como se llame su servidor creado en MySQL
 ```
 var query = "INSERT INTO `practica 1`(`ID`, `FECHA`, `DEVICE`, `TEMPERATURA`, `HUMEDAD`) VALUES (NULL, current_timestamp(), '";
 ```
 
 ![]()
 
-9. En la parte de dashboard se agrega una nueva tabla con el mobre de SISTEMA DE RIEGO (HMI), posteriormente se añaden 5 grupos con los nombre de
+10. En la parte de dashboard se agrega una nueva tabla con el nombre de SISTEMA DE RIEGO (HMI), posteriormente se añaden 5 grupos con los nombre de
     -NIVEL DE AGUA
     -INDICADORES
     -GRAFICAS
-    - Sistema de riego.
-10. En los nodo de gauge de los tres functions se colocara en el grupo de indicadores y en el chart de los  funcion sus nodos corresponderan al grupo  graficas
+    -Sistema de riego.
+11. En los nodo de gauge de los tres functions se colocara en el grupo de indicadores y en el chart de los  function sus nodos corresponderan al grupo  graficas
 
 ![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/chart%20humedad.jpeg)
 ![](https://github.com/YasminZagal/PROYECTO-FINAL-DIPLOMADO-SISTEMA-DE-RIEGO-AUTOMATIZADO/blob/main/chart%20temperatura.jpeg)
